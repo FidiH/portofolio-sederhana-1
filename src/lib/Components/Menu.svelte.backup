@@ -1,0 +1,66 @@
+<script>
+  let styleArticle = "w-[90%] md:w-[90%] rounded-lg shadow-lg overflow-hidden bg-amber-400 m-auto mb-7"
+</script>
+
+<section>
+  
+  <div class="hidden md:block">
+    <span class="w-48 h-48 absolute rounded-full block bg-amber-400 top-0 right-0"></span>
+    <span class="w-48 h-48 absolute rounded-full block bg-green-600 top-96 -left-16"></span>
+  </div>
+
+
+  <h2 class="text-center font-semibold text-3xl text-amber-500 drop-shadow-sm my-5">MENU</h2>
+
+  <div class="columns-1 md:columns-3 gap-8 p-8 md:px-20 m-auto w-screen absolute z-20">
+
+    <article class={styleArticle}>
+      <img src="/bg.jpg" class="w-full" alt="">
+      <div class="py-2 px-4">
+        <h3 class="text-xl font-semibold">Karedok Biasa</h3>
+        <ul class="text-sm text-slate-900">
+          <li>Timun</li>
+          <li>Kol</li>
+          <li>Toge</li>
+          <li>Krupuk</li>
+        </ul>
+      </div>
+      <div class="flex p-3 justify-between  font-semibold">
+        <span class="text-2xl">10K</span>
+        <button class="py-1 drop-shadow px-4 rounded bg-slate-50">Beli</button>
+      </div>
+    </article>
+    <article class={styleArticle}>
+      <img src="/bg.jpg" class="w-full" alt="">
+      <div class="py-2 px-4">
+        <h3 class="text-xl font-semibold">Karedok Biasa</h3>
+        <ul class="text-sm text-slate-900">
+          <li>Timun</li>
+          <li>Kol</li>
+          <li>Toge</li>
+          <li>Krupuk</li>
+        </ul>
+      </div>
+      <div class="flex p-3 justify-between  font-semibold">
+        <span class="text-2xl">10K</span>
+        <button class="py-1 drop-shadow px-4 rounded bg-slate-50">Beli</button>
+      </div>
+    </article>
+    <article class={styleArticle}>
+      <img src="/bg.jpg" class="w-full" alt="">
+      <div class="py-2 px-4">
+        <h3 class="text-xl font-semibold">Karedok Biasa</h3>
+        <ul class="text-sm text-slate-900">
+          <li>Timun</li>
+          <li>Kol</li>
+          <li>Toge</li>
+          <li>Krupuk</li>
+        </ul>
+      </div>
+      <div class="flex p-3 justify-between  font-semibold">
+        <span class="text-2xl">10K</span>
+        <button class="py-1 drop-shadow px-4 rounded bg-slate-50">Beli</button>
+      </div>
+    </article>
+  </div>
+</section>
